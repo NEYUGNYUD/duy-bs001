@@ -75,3 +75,9 @@
 
 #featured-video #title {
   border-bottom: 2px solid #000000; }
+
+#footer {
+  color: #ffffff;
+  background: #000000;
+  text-align: center;
+  padding: 5%; }
