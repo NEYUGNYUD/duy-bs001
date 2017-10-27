@@ -1,1 +1,5 @@
-bootstrap4-scss-gulp-starter-kit-master
+node_modules
+assets/bootstrap4
+assets/font-awesome-4.7.0
+assets/popper
+assets/jquery

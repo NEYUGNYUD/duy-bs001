@@ -1,0 +1,35 @@
+#header {
+	border: 1px solid #f2dede;
+	padding: 0px;
+
+	#social {
+		background: #000000;
+		border-bottom: 1px solid #665d54;
+		a {
+			display: inline-block;
+			border-right: 1px solid #665d54;
+			padding: 6px 13px;
+			margin: 0px 0px;
+			float: right;
+		}
+
+		.red-icon {
+			color: #dc2c07;
+		}
+	}
+
+	#account {
+		background: #1e1e25;
+		color: #ffffff;
+	}
+}
+
+#menu {
+	.menu-item {
+		color: #000000;
+	}
+
+}
+
+
+
