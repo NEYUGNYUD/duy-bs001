@@ -1,0 +1,16 @@
+/**
+Dung cho id hot-news va rated-news
+ */
+%forHotNewsNRatedNews {
+	padding: 30px 0px;
+	background: #eaeaea;
+	.card {
+		margin-bottom: 20px;
+	}
+	.card-block {
+		padding: 20px;
+	}
+	.text-time {
+		color: #ff1c4b;
+	}
+}

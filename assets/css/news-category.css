@@ -1,0 +1,35 @@
+/**
+Dung cho id hot-news va rated-news
+ */
+#news-category {
+  padding: 30px 0px;
+  background: #eaeaea; }
+  #news-category .card {
+    margin-bottom: 20px; }
+  #news-category .card-block {
+    padding: 20px; }
+  #news-category .text-time {
+    color: #ff1c4b; }
+
+#news-category #rated-news {
+  padding: 30px 0px; }
+  #news-category #rated-news #categories {
+    margin-bottom: 20px; }
+    #news-category #rated-news #categories li {
+      text-align: center;
+      width: 30%; }
+    #news-category #rated-news #categories a {
+      color: #adadad; }
+      #news-category #rated-news #categories a:hover {
+        color: #000000;
+        text-decoration: none;
+        border-bottom: 3px solid #ffb100; }
+      #news-category #rated-news #categories a.active {
+        color: #000000; }
+  #news-category #rated-news .news-img {
+    padding: 0px; }
+  #news-category #rated-news #featured-video #title {
+    border-bottom: 2px solid #000000; }
+  #news-category #rated-news #title {
+    border-bottom: 2px solid #000000;
+    margin-bottom: 20px; }

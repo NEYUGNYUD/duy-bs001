@@ -1,0 +1,5 @@
+@import "for-hotnews-n-ratednews.scss";
+
+#hot-news {
+	@extend %forHotNewsNRatedNews;
+}

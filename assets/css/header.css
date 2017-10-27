@@ -1,0 +1,21 @@
+#header {
+  border: 1px solid #f2dede;
+  padding: 0px; }
+  #header #social {
+    background: #000000;
+    border-bottom: 1px solid #665d54; }
+    #header #social a {
+      display: inline-block;
+      border-right: 1px solid #665d54;
+      padding: 6px 13px;
+      margin: 0px 0px;
+      float: right; }
+    #header #social .red-icon {
+      color: #dc2c07; }
+  #header #account {
+    background: #1e1e25;
+    color: #ffffff; }
+  #header #menu {
+    border-bottom: 1px solid #ababab; }
+    #header #menu .menu-item {
+      color: #000000; }
