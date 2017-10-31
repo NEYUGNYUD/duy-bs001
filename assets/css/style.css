@@ -44,13 +44,33 @@ Dung cho id hot-news va rated-news
     display: inline; }
 
 #menu {
-  border-bottom: 1px solid #ababab; }
-  #menu .menu-item {
-    color: #000000; }
+  padding: 0px; }
+  #menu li {
+    padding: 3px; }
+    #menu li:hover {
+      border-bottom: 2px solid #eea220; }
+    #menu li .menu-item {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 0px auto; }
 
 #notification li {
   margin-top: auto;
   margin-bottom: auto; }
+  #notification li a {
+    position: relative; }
+
+#notification .ping {
+  background: #ff0000;
+  border: 3px solid #141517;
+  border-radius: 50%;
+  height: 14px;
+  position: absolute;
+  right: 5px;
+  top: 9px;
+  width: 14px;
+  z-index: 1; }
 
 #body {
   padding: 0px; }
@@ -67,7 +87,7 @@ Dung cho id hot-news va rated-news
 #title {
   border-bottom: 2px solid #000000; }
 
-#news-of-category {
+.news-of-category {
   padding: 20px 0px;
   margin-left: auto;
   margin-right: auto; }
@@ -76,18 +96,23 @@ Dung cho id hot-news va rated-news
   padding: 30px 0px; }
   #rated-news .news-img {
     padding: 0px; }
+  #rated-news .nav-tabs {
+    border: none; }
 
 #categories {
   margin-bottom: 20px; }
   #categories li {
     text-align: center;
     width: 30%; }
-  #categories a {
-    color: #adadad; }
-    #categories a:hover {
+    #categories li:hover {
       color: #000000;
       text-decoration: none;
-      border-bottom: 3px solid #ffb100; }
+      border-bottom: 2px solid #ffb100; }
+      #categories li:hover a {
+        text-decoration: none;
+        color: #000000; }
+  #categories a {
+    color: #adadad; }
     #categories a.active {
       color: #000000; }
 

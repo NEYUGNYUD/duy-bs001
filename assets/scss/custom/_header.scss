@@ -40,10 +40,19 @@
 
 }
 #menu {
-	border-bottom: 1px solid #ababab;
-
-	.menu-item {
-		color: #000000;
+	//border-bottom: 1px solid #ababab;
+	padding: 0px;
+	li {
+		padding: 3px;
+		&:hover {
+			border-bottom: 2px solid #eea220;
+		}
+		.menu-item {
+			color: #000000;
+			font-size: 14px;
+			font-weight: 700;
+			padding: 0px auto
+		}
 	}
 }
 
@@ -51,5 +60,19 @@
 	li {
 		margin-top: auto;
 		margin-bottom: auto;
+		a {
+			position: relative;
+		}
+	}
+	.ping {
+		background: #ff0000;
+		border: 3px solid #141517;
+		border-radius: 50%;
+		height: 14px;
+		position: absolute;
+		right: 5px;
+		top: 9px;
+		width: 14px;
+		z-index: 1;
 	}
 }
